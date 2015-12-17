@@ -12,7 +12,7 @@ $c->setCookieFile($TASK['cookie']);
 $c->includeHeader(false);
 $c->createCurl();
 
-$c = new aCurl("http://morefmchoir.com/sendvote.asp?_=" . time() . "&o=1140");
+$c = new aCurl("http://morefmchoir.com/sendvote.asp?_=" . time() . "&o=1148");
 $c->setCookieFile($TASK['cookie']);
 $c->includeHeader(false);
 $c->createCurl();
